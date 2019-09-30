@@ -1,8 +1,8 @@
 let arr = [8,2,5,1];
-let p1 = arr[0];
+let value = arr[0];
 
-for (let i = 0; i < arr.length; i++) {
-  p1 < arr[i] ? p1 = arr[i] : null;
+for (let x = 0; x < arr.length; x++) {
+  value < arr[x] ? value = arr[x] : null;
 }
 
-console.log(p1);
+console.log(value);
